@@ -12,8 +12,8 @@ end
 
 def print_first_directors_movie_titles
   pp 
-  row = 0
-  while row < directors_database.length do 
+  i = 0
+  while i < directors_database.length do 
     puts directors_database[row][][]
     row += 1
   end
