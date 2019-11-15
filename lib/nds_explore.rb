@@ -12,9 +12,11 @@ end
 
 def print_first_directors_movie_titles
   pp 
+  new_array = []
   i = 0
   while i < directors_database.length do 
-    puts directors_database[i][:title]
+    new_array << directors_database[i][:title]
+    puts new_array
     i += 1
   end
 end
