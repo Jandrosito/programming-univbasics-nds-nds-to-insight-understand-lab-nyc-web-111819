@@ -15,7 +15,8 @@ def print_first_directors_movie_titles
   new_array = []
   i = 0
   while i < 6 do 
-    puts directors_database[i][:title]
+    new_array << directors_database[i][:title]
   i += 1
   end
+  new_array
 end
