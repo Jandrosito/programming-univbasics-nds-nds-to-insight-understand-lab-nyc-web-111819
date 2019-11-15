@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
   pp 
   new_array = []
   i = 0
-  while i < directors_database.length do 
+  while i < 7 do 
     puts directors_database[i][:title]
   i += 1
   end
