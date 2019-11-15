@@ -11,12 +11,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  pp 
-  new_array = []
+  movies = directors_database[0][:movies]
   i = 0
-  while i < 6 do 
-    new_array << directors_database[i][:title]
-  i += 1
+  while i < movies.length do
+    titles = movies[i][:title]
+    puts titles
+    i +=1
   end
-  new_array
 end
